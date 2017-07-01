@@ -1,2 +1,3 @@
 # go-examples
-Playing with [go](golang.org) 
+
+Me, having fun with [go](golang.org) 
