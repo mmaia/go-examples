@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+func handler(responseWriter http.ResponseWriter, request *http.Request) {
+	fmt.Fprintf(responseWriter, "Hi there, I love %s!", request.URL.Path[1:])
 }
 
 func main() {
