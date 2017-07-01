@@ -1,6 +1,7 @@
 # intellij configuration ==========================
 .idea
 *.iml
+build
 
 # golang configuration =============================
 # Binaries for programs and plugins
